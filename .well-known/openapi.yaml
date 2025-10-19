@@ -1,0 +1,20 @@
+openapi: 3.0.1
+info:
+  title: Paw Heroes Shop API
+  description: API specification for Paw Heroes Shop to help AI and search engines understand available data endpoints.
+  version: "1.0.0"
+servers:
+  - url: https://pawheroesshop.com
+paths:
+  /collections:
+    get:
+      summary: Get all product collections.
+      responses:
+        '200':
+          description: Returns available collections (e.g., Automatic Pet Feeders, Dog Leash, Interactive Pet Toys/Accessories, Grooming Tools)
+  /products:
+    get:
+      summary: Get a list of available products with links.
+      responses:
+        '200':
+          description: Returns product names, prices, images, and URLs.
