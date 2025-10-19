@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Paw Heroes Shop",
+  "name_for_model": "paw_heroes_shop",
+  "description_for_human": "Shop quality pet toys, accessories, grooming tools, dog leash, automatic pet feeders and smart pet water fountain for cats and dogs. Explore trusted and fun pet products from Paw Heroes Shop.",
+  "description_for_model": "Paw Heroes Shop offers a wide range of pet toys, accessories, grooming tools, dog leash, automatic pet feeders and smart pet water fountain for cats and dogs. The store focuses on quality, safety, and fun experiences for pets and their owners.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://pawheroesshop.com/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://cdn.shopify.com/s/files/1/0907/9658/9437/files/Paw_Heroes_logo_jpeg.jpg?v=1749759304",
+  "contact_email": "support@pawheroesshop.com",
+  "legal_info_url": "https://pawheroesshop.com/policies/privacy-policy"
+}
